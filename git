@@ -1,5 +1,9 @@
 que es git?
 es un sistema para controlar el historial de cambios
+que es stage?
+es un lugar donde puedo agregar cambios para despues hacerles commit
+que es un commit?
+cuando estoy seguro de los cambios que tengo en stage genero un commit (checkpoint) con un mensaje que me permite ver esos cambios en el historial
 comandos: 
 inicializar un repo: git init 
 agregar archivos para commit: git add nombre-de-archivo.extension
@@ -10,3 +14,4 @@ hacer commit con mensaje incluido (-m): git commit -m "mi primer commit"
 agregar el repo de destino: git remote add origin https://github.com/Carlos3312/mi-primer-repositorio.git
 el primer push se hace asi: git push --set-upstream origin master
 para clonar un repositorio de git: git clone https://github.com/Carlos3312/mi-primer-repositorio.git
+para ver el historial: git log 
