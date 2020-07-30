@@ -1,2 +1,12 @@
 que es git?
 es un sistema para controlar el historial de cambios
+comandos: 
+inicializar un repo: git init 
+agregar archivos para commit: git add nombre-de-archivo.extension
+ver el status de los archivos: git status
+como configurar mi email: git config --global user.email "carlos21403@hotmail.com"
+configurar mi nombre: git config --global user.name "Carlos Perez"
+hacer commit con mensaje incluido (-m): git commit -m "mi primer commit"
+agregar el repo de destino: git remote add origin https://github.com/Carlos3312/mi-primer-repositorio.git
+el primer push se hace asi: git push --set-upstream origin master
+para clonar un repositorio de git: git clone https://github.com/Carlos3312/mi-primer-repositorio.git
